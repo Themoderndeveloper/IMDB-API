@@ -1,4 +1,5 @@
-# PENN
+# PENN Movie API Python project
+
 PENN Interactive API Project
 
 This project requires that the large JSON file that is available at: 
