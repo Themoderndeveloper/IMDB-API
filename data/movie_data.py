@@ -18,20 +18,5 @@ class MovieData:
         result = movie_cache['movies'][tconst_id]
         return result
 
-    @staticmethod
-    def get_movies_by_start_year(year):
-        new_movie_dict = {}
-        for movie in list(movie_cache['movies'].values()):
-            for key, value in movie.items():
-                if (key == 'startYear') and (value == year):
-                    new_movie_dict.update(movie)
-        result = new_movie_dict
-        return result
-
-    @staticmethod
-    def get_movies_by_genre(genre):
-        result = movie_cache['movies'][genre]
-        return result
-
 
 movie_cache = MovieData.create_movie_dictionary()
