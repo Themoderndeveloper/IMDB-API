@@ -1,5 +1,4 @@
-# PENN
-PENN Interactive API Project# IMDB Movie API Python project
+# IMDB Movie API Python project
 
 This project requires that the large JSON file that is available at: 
 
