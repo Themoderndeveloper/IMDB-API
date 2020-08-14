@@ -1,6 +1,4 @@
-# PENN Movie API Python project
-
-PENN Interactive API Project
+# IMDB Movie API Python project
 
 This project requires that the large JSON file that is available at: 
 
@@ -10,8 +8,6 @@ Place the file at the root of a C drive or update the path in the file to a diff
  
 movie_data.py
 Line 10 - with open('C:\\data.json') as file
-
-There is a bug in the nested JSON Dictionary for multiple movie records.
 
 All API calls work from the Home Page Links when the API server is started by running:
 app.py
